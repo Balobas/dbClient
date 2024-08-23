@@ -3,6 +3,7 @@ package dbClient
 import (
 	"context"
 
+	_ "github.com/balobas/dbClient/pg"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 )
